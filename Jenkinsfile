@@ -3,7 +3,7 @@ agent {
 label 'local1'
 }
 
-```
+
 environment {
     APP_NAME = 'demo-app'
     IMAGE_NAME = 'demo-app'
@@ -131,6 +131,6 @@ post {
         echo 'FAILURE: Pipeline execution failed. Check the Console Output.'
     }
 }
-```
+
 
 }
